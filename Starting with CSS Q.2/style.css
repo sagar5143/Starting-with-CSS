@@ -1,0 +1,42 @@
+/* styles for the content block */
+.content {
+    margin: 25px;
+    padding: 10px;
+}
+
+/* styles for the paragraph within the content */
+.content_paragraph {
+    margin: 15px 0;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* modifier for paragraph primary */
+.content_paragraph-primary {
+    color: antiquewhite;
+    background-color: blueviolet;
+    border: 1px solid darkblue;
+}
+
+/* Modifier for paragraph secondary */
+.content_paragraph-secondary {
+    color: antiquewhite;
+    background-color: rgb(237, 22, 215);
+    border: 1px solid darkmagenta;
+}
+
+/* Modifier for paragraph highlight */
+.content_paragraph-highlight {
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+    border: 1px solid magenta;
+}
+
+/* Modifier for note paragraph */
+.content_paragraph-note {
+    color: white;
+    background-color: gray;
+    font-style: italic;
+    border: 1px solid rgb(73, 72, 72);
+}
